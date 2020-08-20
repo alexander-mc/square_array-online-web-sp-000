@@ -8,12 +8,12 @@ end
 
 def square_array_collect(array)
   array.collect {|number| number ** 2}
+  collect
 end
 
 def square_array_map(array)
   array.map {|number| number ** 2}
-  array
 end
 
 a = [1,2,3,4]
-puts square_array_map(a).inspect
+puts square_array_collect(a).inspect
