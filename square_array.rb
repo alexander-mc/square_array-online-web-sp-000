@@ -7,4 +7,4 @@ def square_array(array)
 end
 
 a = [1,2,3,4]
-puts square_array(a)
+puts square_array(a).inspect
