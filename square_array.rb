@@ -8,7 +8,6 @@ end
 
 def square_array_collect(array)
   array.collect {|number| number ** 2}
-  collect
 end
 
 def square_array_map(array)
