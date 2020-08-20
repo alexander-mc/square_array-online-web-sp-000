@@ -10,6 +10,9 @@ def square_array_collect(array)
   array.collect {|number| number ** 2}
 end
 
+def square_array_map(array)
+  array.map {|number| number ** 2}
+end
 
 a = [1,2,3,4]
-puts square_array_collect(a).inspect
+puts square_array_map(a).inspect
