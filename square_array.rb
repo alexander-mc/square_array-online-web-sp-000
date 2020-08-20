@@ -7,9 +7,7 @@ def square_array(array)
 end
 
 def square_array_collect(array)
-  array.collect do |number|
-    number ** 2
-  end
+  array.collect {|number| number ** 2}
 end
 
 
